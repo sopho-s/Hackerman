@@ -1,3 +1,11 @@
+# Metasploit db
+Metasploit has a database function to simplify project management and avoid possible confusion when setting up parameter values
+```bash
+systemctl start postgresql
+sudo -u postgres msfdb init
+```
+using `db_nmap` now stores all results in the database
+using `hosts` and `services` can show all about the hosts and services found
 # Commands
 ## use
 - `use [module]`
@@ -21,6 +29,34 @@ this will search the mf database for modules relevant to the given search parame
 - `search type:[type] [search-term]`
 this can be used to specify the type of module one is searching for
 ## set 
+- `set [parameter-name] [value]`
+sets the parameters in a module to a certain value
+## setg
+- `setg [parameter-name] [value]`
+sets the parameter globally to a certain value
+## unset
+- `unset [parameter-name]`
+clears any parameter or can be used with `all` to clear all parameters
+## unsetg
+- `unsetg [parameter-name]`
+clears any parameter globably
+## exploit
+- `exploit`
+runs the module
+## check
+- `check`
+checks if the target system is vulnerable without exploiting it
+## background
+- `background`
+pushes the run exploit to the background and brings you back to the msfconsole
+## sessions
+- `sessions`
+shows all existing sessions
+`sessions -i [session-number]` allows you to interact with the session 
+## workspace
+- `workspace`
+lists all workspaces
+`workspace -a/-d` adds and deletes a workspace respectively
 # Types of modules
 ## Auxiliary
 Any supporting module, such as scanners, crawlers and fuzzers
@@ -45,3 +81,40 @@ Responsible for setting up a connection channel between Metasploit and the targe
 Downloaded by the stager. this will allow you to use larger sized payloads
 ## Post
 Post modules will be useful on the final stage of the penetration testing process listed above, post-exploitation
+# Parameters
+- RHOSTS: "Remote host" the IP address of the target system. A single IP address or a network range can be set. It also supports CIDR notation
+- RPORT: "Remote port" the port on the target system the vulnerable application is running on
+- PAYLOAD: the payload you will use with the exploit
+- LHOST: "Localhost" the attacking machine's IP address
+- LPORT: "Local port" the port you will use for the reverse shell to connect back to
+- SESSION: each connection established to the target system using Metasploit will have a session ID
+# Msfvenom
+msfvenom allows you to access all payloads available in the metasploit framework
+## args
+### -p
+specifies which payload you want
+### LHOST
+specifies the machine you want to connect from
+### -e
+specifies which encoding method you want
+### -f
+specifies which format you want the payload in
+### -l
+lists about a certain option
+## listenting
+when using a meterpreter reverse shell, one can use the module `exploit/multi/handler` to connect
+# Meterpreter migration
+This is how migrate works in meterpreter:  
+
+1. Get the PID the user wants to migrate into. This is the target process.
+2. Check the architecture of the target process whether it is 32 bit or 64 bit. It is important for memory alignment.
+3. Check if the meterpreter process has the SeDebugPrivilege. This is used to get a handle to the target process. Further details at [http://support.microsoft.com/kb/131065](http://support.microsoft.com/kb/131065)
+4. Get the actual payload from the handler that is going to be injected into the target process. Calculate its length as well.
+5. Call the OpenProcess() API to gain access to the virtual memory of the target process.
+6. Call the VirtualAllocEx() API to allocate an RWX (Read, Write, Execute) memory in the target process
+7. Call the WriteProcessMemory() API to write the payload in the target memory virtual memory space.
+8. Call the CreateRemoteThread() API to execute the newly created memory stub having the injected payload in a new thread.
+9. Shutdown the previous thread having the initial meterpreter running in the old process.
+# Useful meterpreter extensions
+## kiwi
+has a bunch of useful cred retrieval

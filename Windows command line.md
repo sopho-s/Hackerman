@@ -25,3 +25,7 @@ checks the file system and disk volumes for errors and bad sectors
 displays a list of installed device drivers
 ## sfc /scannow
 scans system files for corruption
+## type
+outputs the contents of a file
+## net users
+lists all users

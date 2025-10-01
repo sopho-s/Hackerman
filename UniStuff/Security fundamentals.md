@@ -61,3 +61,28 @@ It does this in the context of matrices like the following
 Not scale-able as it needs to be made for each user and decided who can access what
 # Role Based Access Control
 Role based access control is built upon the idea that subjects often have roles and roles share the same rights, so RBAC will create roles for jobs and then assign the users to roles and give them a set of permissions to each role (Like AD)
+## problems with simple RBAC
+every person with the same role would be able to access everybody else stuff within the same role
+## Hierarchical RBAC
+this allows some roles to inherit from other roles so that there are no redundant rules
+## lattice structure
+![[Labelingordering.png|100%]]
+labeling is similar to RBAC except it separates roles even more 
+![[Screenshot from 2025-09-30 20-15-14.png]]
+where a greater value can access the rules from a lower value
+### Dominance relation
+![[Screenshot from 2025-09-30 20-16-50.png]]
+![[Screenshot from 2025-09-30 20-17-26.png]]
+### benefits
+this allows us to find the minimum label for a subject to read n amount of differently labeled objects, the same with the other way around
+great for need-to-know policies where the subject is assigned the least amount of privilege for his function
+## Bell-LaPadula Model
+This is similar to a latices model except the user has a maximum level and a current level, for example for everyday use you may want a lower level and when you need to access confidential data then you elevate you level
+this thinks about information flow
+it also thinks about the Read-down & Write-up system, which prevents the leakage of information
+but also prevents legitimate communication from high-level subjects to low-level ones. This can be fixed by temporarily downgrading a subject's security level, or identify a set of trusted subjects that may violate the property
+# some other ACM
+- discretionary access control: owners can change permissions, eg linux file system
+- break-glass access control allows to override the access control in emergencies
+# Usage control
+this controls the usage of documents, this might be encountered in the form of DRM. this can be done in the form of watermarking or monitoring
