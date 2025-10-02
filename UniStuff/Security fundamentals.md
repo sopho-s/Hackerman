@@ -71,8 +71,8 @@ labeling is similar to RBAC except it separates roles even more
 ![[Screenshot from 2025-09-30 20-15-14.png]]
 where a greater value can access the rules from a lower value
 ### Dominance relation
-![[Screenshot from 2025-09-30 20-16-50.png]]
-![[Screenshot from 2025-09-30 20-17-26.png]]
+![[Dominance1.png]]
+![[Dominance 2.png]]
 ### benefits
 this allows us to find the minimum label for a subject to read n amount of differently labeled objects, the same with the other way around
 great for need-to-know policies where the subject is assigned the least amount of privilege for his function
