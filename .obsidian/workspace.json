@@ -207,10 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "660a3110e606ff5a",
+  "active": "5586751acc610da0",
   "lastOpenFiles": [
-    "JS.md",
+    "Powershell.md",
     "SQL.md",
+    "JS.md",
     "Web.md",
     "UniStuff/Security fundamentals.md",
     "Cryptography.md",
@@ -224,7 +225,6 @@
     "Tools/nmap.md",
     "Tools/TCPDump.md",
     "Tools/John the Ripper.md",
-    "Powershell.md",
     "Images/HMAC.svg",
     "Images/acmatrix.png",
     "Images/TRIO.png",

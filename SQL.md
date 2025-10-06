@@ -1,3 +1,7 @@
+# Logging onto SQL local
+```bash
+mysql -u root -p
+```
 # Relational vs non-relational
 ## Relational database
 stores structured data, meaning the data inserted into this database follows a structure. This structured data is stored in rows and columns in a table. Relationships can then be made between two or more tables
@@ -69,5 +73,127 @@ SELECT * FROM table_name;
 ```
 the following command selects only certain fields from the table
 ```sql
-SELECT field1, field2 FROM table_name
+SELECT field1, field2 FROM table_name;
+```
+## UPDATE
+```sql
+UPDATE table_name
+SET field = value
+WHERE field = value;
+```
+## DELETE
+```sql
+DELETE FROM table_name WHERE field = value;
+```
+# Clauses
+clauses are a part of a statement that specifies the criteria of the data being manipulated, this can define the type of data an how it should be retrieved or sorted
+## DISTINCT
+This clause is used to avoid duplicate records when doing a query, returning only unique values
+```sql
+SELECT DISTINCT * FROM table_name;
+```
+## GROUP BY
+```sql
+SELECT field_name, COUNT(*)
+FROM table_name
+GROUP BY field_name;
+```
+## ORDER BY
+```sql
+SELECT *
+FROM table_name
+ORDER BY field_name ASC/DESC;
+```
+## HAVING
+```sql
+SELECT field_name, COUNT(*)
+FROM table_name
+GROUP BY field_name
+HAVING field_name LIKE '%string%';
+```
+# Operators
+## LIKE
+The LIKE operator is commonly used in conjunction with clauses like WHERE in order to filter for specific patterns within a column
+```sql
+SELECT *
+FROM table_name
+WHERE field_name LIKE "%string%";
+```
+## AND
+The AND operator uses multiple conditions within a query and returns TRUE if all of them are true
+```sql
+SELECT *
+FROM table_name
+WHERE field_name="string" AND field_name="string";
+```
+## OR
+The OR operator uses multiple conditions within a query and returns TRUE if one of them is true
+```sql
+SELECT *
+FROM table_name
+WHERE field_name="string" OR field_name="string";
+```
+## NOT
+The NOT operator reverses the value of a boolean operator, allowing us to exclude a specific condition
+```sql
+SELECT *
+FROM table_name
+WHERE NOT field_name LIKE "%string%"
+```
+## BETWEEN
+The BETWEEN operator allows us to test if a value exists within a defined range
+```sql
+SELECT *
+FROM table_name
+where field_name BETWEEN n_1 and n_2;
+```
+# Functions
+## CONCAT()
+this function adds two or more strings together
+```sql
+SELECT CONCAT(field_name, "string", field_name)
+AS new_field_name
+FROM table_name;
+```
+## GROUP_CONCAT()
+this function can help us to contatenate data from multiple rows into one field
+```sql
+SELECT field_name, GROUP_CONCAT(field_name SEPARATOR ", ")
+AS new_field_name
+FROM table_name
+GROUP BY field_name;
+```
+## SUBSTRING()
+this function will retrieve a substring from a string within a query
+```sql
+SELECT SUBSTRING(field_name, n_1, n_2)
+AS new_field_name
+FROM table_name;
+```
+## LENGTH()
+This function returns the number of characters in a string
+```sql
+SELECT LENGTH(field_name)
+AS new_field_name
+FROM table_name;
+```
+## SUM()
+```sql
+SELECT SUM(field_name)
+AS new_field_name
+FROM table_name;
+```
+## MAX()
+this function calculates the maximum value within a provided column in an expression
+```sql
+SELECT MAX(field_name)
+AS new_field_name
+FROM table_name;
+```
+## MIN()
+This function calculates the minimum value within a provided column in an expression
+```sql
+SELECT MIN(field_name)
+AS new_field_name
+FROM table_name;
 ```
