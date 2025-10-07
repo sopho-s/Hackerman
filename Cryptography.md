@@ -59,3 +59,6 @@ HMAC (Keyed-Hash Message Authentication Code) is a type of message authenticatio
 4. The result from Step 3 is then hashed again with the same hash function but using the padded key XORed with another constant.
 5. The final output is the HMAC value, typically a fixed-size string.
 ![[HMAC.svg|100%]]
+
+# Useful links
+[cyber-chef](https://gchq.github.io/CyberChef/)
