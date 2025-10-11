@@ -35,3 +35,17 @@ $R_{i+1}=L_i\oplus\ F(R_i,K_i)$
 where F scrambles the value using a key
 ## Block cipher
 ciphers that encrypt data in blocks of set size
+## Issues with symmetric
+- Key distribution
+- every pair of users need their own secret
+- evidence that a specific person created or approved a specific message so they cannot later deny doing so
+# DES
+Data encryption standard was the first cryptographic standard and was a block, 16 round feistel cipher
+the security of DES has long been questioned as people fear the NSA has a secret backdoor in the cipher
+## Why is DES insecure
+a exhaustive key search can crack code in a reasonable time
+# Cipher modes
+## Electronic codebook (ECB)
+encrypts each block with the same key which means identical plaintext blocks results in identical cipher text blocks
+## Cipher Block chaining (CBC)
+each plaintext block is XORed with the previous cipher text block
