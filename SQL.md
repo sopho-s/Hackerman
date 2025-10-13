@@ -1,4 +1,4 @@
-# Logging onto SQL local
+# Logging onto MySQL local
 ```bash
 mysql -u root -p
 ```

@@ -1,0 +1,8 @@
+# What is a file descriptor
+> In [Unix](https://en.wikipedia.org/wiki/Unix "Unix") and [Unix-like](https://en.wikipedia.org/wiki/Unix-like "Unix-like") [computer](https://en.wikipedia.org/wiki/Computer "Computer") [operating systems](https://en.wikipedia.org/wiki/Operating_system "Operating system"), a **file descriptor** (**FD**, less frequently **fildes**) is a process-unique identifier ([handle](https://en.wikipedia.org/wiki/Handle_\(computing\) "Handle (computing)")) for a [file](https://en.wikipedia.org/wiki/File_\(computing\) "File (computing)") or other [input/output](https://en.wikipedia.org/wiki/Input/output "Input/output") [resource](https://en.wikipedia.org/wiki/System_resource), such as a [pipe](https://en.wikipedia.org/wiki/Pipe_\(Unix\) "Pipe (Unix)") or [network socket](https://en.wikipedia.org/wiki/Network_socket "Network socket")
+> -Wikipedia
+
+Essentially whenever you open a file the operating system creates an entry to represent that file, whenever you want to write or read to/from something you use this file descriptor to do as such
+# Why are some file descriptor number reserved
+0, 1, and 2 are all reserved these are: standard input, standard output, and standard error respectively
+As linux chooses to represent everything with a file, simple things like the previously mentions outputs use file descriptors to write and read (while they are streams rather than normal files)
