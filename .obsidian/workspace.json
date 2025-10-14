@@ -123,14 +123,14 @@
             "id": "43d34e58f411c8a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Subdomain enumeration.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Subdomain enumeration"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -294,14 +294,18 @@
   },
   "active": "43d34e58f411c8a9",
   "lastOpenFiles": [
-    "Discovery/Content discovery.md",
     "Subdomain enumeration.md",
+    "unistuff/Security fundamentals.md",
+    "unistuff/Cryptography.md",
+    "unistuff",
+    "unistuff 1/Security fundamentals.md",
+    "unistuff 1/Cryptography.md",
+    "unistuff 1",
+    "Discovery/Content discovery.md",
     "Discovery",
     "OSINT/search engine.md",
     "OSINT/sock puppets.md",
-    "unistuff/Cryptography.md",
     "OSINT",
-    "unistuff/Security fundamentals.md",
     "SQL.md",
     "important windows thingys",
     "shell/shells.md",
@@ -321,9 +325,6 @@
     "tools/Burpsuite.md",
     "tools/Gobuster.md",
     "tools/gpg.md",
-    "tools/Hydra.md",
-    "tools/John the Ripper.md",
-    "tools/Metasploit.md",
     "shell",
     "web",
     "Images/Dominance 2.png",
@@ -333,11 +334,9 @@
     "Images/HMAC.svg",
     "Images/acmatrix.png",
     "Images/TRIO.png",
-    "unistuff",
     "Images",
     "tools",
     "Images/PrepareFilterWire.png",
-    "Unconfirmed 315756.crdownload",
     "Pasted image 20250916232551.png",
     "Images/ColouriseConvoWire.png"
   ]
