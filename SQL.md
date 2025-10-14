@@ -197,3 +197,19 @@ SELECT MIN(field_name)
 AS new_field_name
 FROM table_name;
 ```
+# SQL injection
+sql injection takes advantage of non sanatised inputs and allows you to execute your own unauthorised sql commands
+## common examples
+```sql
+abc' OR 1=1;-- -
+```
+# tools
+sqlmap is commonly used to discover sql injections inside the application manipulating the database
+### usage
+```shell
+sqlmap --wizard
+```
+--dbs allows you to extract dabases
+--tables allows you to extract tables
+--dump dumps all data from a table
+--level specifies the level used

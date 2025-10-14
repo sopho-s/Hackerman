@@ -49,3 +49,18 @@ a exhaustive key search can crack code in a reasonable time
 encrypts each block with the same key which means identical plaintext blocks results in identical cipher text blocks
 ## Cipher Block chaining (CBC)
 each plaintext block is XORed with the previous cipher text block
+# Public key encryption (asymmetric)
+## RSA
+rsa relies on the presumed hardness of factoring large n=pq where p and q are both primes
+it was inspired by the diffie-hellman's key exchange concept, rsa expanded the concept into an encryption system
+### steps
+1. choose two large primes p, q
+2. compute n = p.q
+3. compute phi(n) = (p-1)(q-1)
+4. pick e; 1<e<phi(n), and gcd(e,phi(n)) = 1
+5. compute d, e.d mod phi(n) = 1
+the public key is n,e
+the private key is d
+### encryption and decryption
+encrypting is `c = m^e mod n`
+decrypting is `m = c^d mod n`
