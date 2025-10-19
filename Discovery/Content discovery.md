@@ -29,3 +29,7 @@ http headers can specify what server has been used to serve the webpage
 < Transfer-Encoding: chunked
 < Connection: keep-alive
 ```
+# ssl/tls certificates
+these certificates are created for a domain be a CA, the CA's take part in something called "Certificate Transparancy logs". These are publicly accessible logs of every SSL/TLS  certificate created for a domain name. Using this service we can discover subdomains belonging to the domain
+## Some sites to do this
+ https://crt.sh

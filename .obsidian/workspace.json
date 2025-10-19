@@ -120,21 +120,35 @@
             }
           },
           {
-            "id": "43d34e58f411c8a9",
+            "id": "bc7ee2a6b5a7cdc6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "vulns/IDOR.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "IDOR"
+            }
+          },
+          {
+            "id": "21c63d2b49f3e072",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vulns/Race conditions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Race conditions"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -289,42 +303,46 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "43d34e58f411c8a9",
+  "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
-    "Subdomain enumeration.md",
-    "unistuff/Security fundamentals.md",
+    "vulns/XSS.md",
+    "vulns/Race conditions.md",
+    "vulns/SSRF.md",
+    "shell/shells.md",
+    "vulns/File Inclusion.md",
+    "vulns/IDOR.md",
+    "vulns/Auth bypass.md",
+    "vulns",
+    "Excalidraw/Drawing 2025-10-17 11.37.37.excalidraw.md",
+    "Excalidraw",
+    "Vulnerability list.md",
+    "tools/gpg.md",
+    "tools/openssl.md",
+    "tools/nmap.md",
+    "tools/Gobuster.md",
+    "tools/fuff.md",
     "unistuff/Cryptography.md",
+    "unistuff/Security fundamentals.md",
+    "Discovery/Content discovery.md",
+    "shell/Command breakdowns.md",
+    "shell/Windows command line.md",
+    "shell/Powershell.md",
+    "Important linux thingys/File descriptor.md",
+    "Subdomain enumeration.md",
     "unistuff",
     "unistuff 1/Security fundamentals.md",
     "unistuff 1/Cryptography.md",
     "unistuff 1",
-    "Discovery/Content discovery.md",
     "Discovery",
     "OSINT/search engine.md",
     "OSINT/sock puppets.md",
     "OSINT",
-    "SQL.md",
     "important windows thingys",
-    "shell/shells.md",
-    "shell/Windows command line.md",
-    "tools/openssl.md",
-    "tools/TCPDump.md",
-    "Important linux thingys/File descriptor.md",
     "Important linux thingys",
-    "quote.md",
-    "shell/Powershell.md",
-    "web/JS.md",
-    "web/Web.md",
-    "Cryptography.md",
-    "Vulnerability list.md",
-    "tools/nmap.md",
-    "tools/netcat.md",
-    "tools/Burpsuite.md",
-    "tools/Gobuster.md",
-    "tools/gpg.md",
     "shell",
     "web",
     "Images/Dominance 2.png",
@@ -334,8 +352,6 @@
     "Images/HMAC.svg",
     "Images/acmatrix.png",
     "Images/TRIO.png",
-    "Images",
-    "tools",
     "Images/PrepareFilterWire.png",
     "Pasted image 20250916232551.png",
     "Images/ColouriseConvoWire.png"
