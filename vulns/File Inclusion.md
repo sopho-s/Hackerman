@@ -9,7 +9,7 @@ This occurs when the web application allows the attacker to inject an external u
 sometimes the include will append an extension at the end, using a null byte %00 can get around this as they may think the end of the string is where the %00 byte is
 
 sometimes when using $\_REQUESTS using a post request instead of a get and using url encoded parameters may change the results of what gets shown
-# Remedations
+# Remediations
 - Keep system and services updated
 - Turn off PHP errors to avoid leaking the path of the application and other potentially revealing information
 - WAF mitigates web application attacks
