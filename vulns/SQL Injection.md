@@ -1,4 +1,4 @@
-SQL injection is an attack on a web application database server that causes malicious queries to be executed
+ 1SQL injection is an attack on a web application database server that causes malicious queries to be executed
 # Types
 ## In-Band
 in-band sql injection refers to the same method of communication being used to exploit the vulnerability and also receive the results 
@@ -20,10 +20,20 @@ using database() function you can work out what the database is
 ## Table names
 using information_schema.tables you can get the tables of the database
 ```sql
-(some value that wont come up) union select 1,...,group_concat(table_name) FROM information_schema.tables WHERE table_schema = 'database_name'
+(some value that wont come up) union select 1,...,group_concat(table_name) FROM information_schema.tables WHERE table_schema = 'database name'
 ```
 ## Column names
 using information_schema.columns you can get the tables of the database
 ```sql
-(some value that wont come up) union select 1,...,group_concat(column_name) FROM information_schema.columns WHERE table_name = 'database_name'
+(some value that wont come up) union select 1,...,group_concat(column_name) FROM information_schema.columns WHERE table_name = 'table name'
 ```
+## Time based
+using SLEEP() one can evaluate the time taken to respond to see if the command was successful
+## Table dump
+```sql
+(some value that wont come up) UNION SELECT 1,...,group_concat(column1,':',column2 SEPARATOR '<br>') FROM table_name
+```
+# Remediation
+- Prepared queries ensure the sql code structure does not change when the parameters are added
+- Input validation makes sure unauthorised commands are not injected
+- Escaping user input stops users entering stuff like ' and " from affecting sql code
