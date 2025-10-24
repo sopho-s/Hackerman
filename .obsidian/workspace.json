@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL.md",
+                "file": "vulns/SQL Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "SQL Injection"
             }
           }
         ],
@@ -309,6 +309,7 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
+    "SQL.md",
     "vulns/SQL Injection.md",
     "tools/Burp/macros.md",
     "tools/Burp/Intruder.md",
@@ -318,7 +319,6 @@
     "unistuff/Security fundamentals.md",
     "Untitled.md",
     "vulns/SSRF.md",
-    "SQL.md",
     "Cryptography.md",
     "vulns/Command injection (RCE).md",
     "vulns/Auth bypass.md",
