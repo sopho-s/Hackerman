@@ -1,0 +1,3 @@
+The sequencer allows you to evaluate the entropy of tokens. If these tokens aren't generated securely, then, in theory, we could predict the upcoming token values
+# Analysis
+After a live capture you have the ability to analyse all the tokens captured and analyse the entropy, burp will give you a overall result of the tokens determining if you should look into the tokens to see if you can produce them

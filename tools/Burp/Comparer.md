@@ -1,0 +1,1 @@
+As the name implies the comparer lets us compare two pieces of data either by ASCII words or by bytes
