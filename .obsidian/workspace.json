@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "protocols/insecure/POP3.md",
+                "file": "tools/nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POP3"
+              "title": "nmap"
             }
           }
         ],
@@ -293,14 +293,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b89917be8b897020",
+  "active": "bc7ee2a6b5a7cdc6",
   "lastOpenFiles": [
+    "tools/netcat.md",
+    "tools/Hydra.md",
+    "protocols/secure/SSH.md",
+    "protocols/secure/TLS.md",
+    "protocols/insecure/Telnet.md",
+    "protocols/secure",
+    "protocols/insecure/IMAP.md",
+    "protocols/insecure/POP3.md",
     "protocols/insecure",
     "protocols/insecure/SMTP.md",
-    "protocols/insecure/POP3.md",
     "protocols/insecure/FTP.md",
     "protocols/insecure/HTTP.md",
-    "protocols/insecure/Telnet.md",
     "tools/nmap.md",
     "protocols",
     "web/Web.md",
@@ -318,10 +324,6 @@
     "SQL.md",
     "tools/Burp/macros.md",
     "tools/Burp/Intruder.md",
-    "tools/Burp/Repeater.md",
-    "unistuff/Dumbass fucking protocol things for crypt.md",
-    "unistuff/Cryptography.md",
-    "unistuff/Security fundamentals.md",
     "tools/Burp",
     "vulns",
     "Excalidraw",
@@ -329,7 +331,6 @@
     "unistuff 1",
     "Discovery",
     "OSINT",
-    "important windows thingys",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",

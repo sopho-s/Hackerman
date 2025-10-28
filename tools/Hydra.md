@@ -8,9 +8,9 @@ sets the number of threads to spawn
 ## -V
 sets the output to verbose
 # Usage
-## SSH
+## General usage
 ```
-hydra -l <username> -P <wordlist> <IP> -t <threads> ssh
+hydra -l <username> -P <wordlist> <IP> -t <threads> <protocol>
 ```
 ## HTTP POST FORM
 ```shell

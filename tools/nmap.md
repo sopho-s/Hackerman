@@ -5,6 +5,8 @@ sends a ping scan
 tries to complete a TCP three way handshake with every target TCP port
 ## -sS
 a SYN scan also known as a stealth scan completes only the first step of the three way handshake, it does such on every target TCP port
+## -sN -sF -sX
+NULL, FIN and Xmas scan are all supposed to be more sneaky port scanning methods
 ## -sU
 scans every target UDP port
 ## -F
@@ -17,6 +19,8 @@ attempts to detect the OS version of the system
 version detection of each service
 ## -T
 0-4 range of how fast one wishes the scan to go
+## -Pn
+removes the initial ping to the device
 
 | Timing          | Total Duration |
 | --------------- | -------------- |
