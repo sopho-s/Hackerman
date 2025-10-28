@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discovery/Passive recon.md",
+                "file": "protocols/insecure/POP3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Passive recon"
+              "title": "POP3"
             }
           }
         ],
@@ -293,10 +293,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bc7ee2a6b5a7cdc6",
+  "active": "b89917be8b897020",
   "lastOpenFiles": [
-    "tools/Burp/Extensions.md",
+    "protocols/insecure",
+    "protocols/insecure/SMTP.md",
+    "protocols/insecure/POP3.md",
+    "protocols/insecure/FTP.md",
+    "protocols/insecure/HTTP.md",
+    "protocols/insecure/Telnet.md",
+    "tools/nmap.md",
+    "protocols",
+    "web/Web.md",
+    "web/JS.md",
+    "Discovery/Active recon.md",
     "Discovery/Passive recon.md",
+    "tools/Burp/Extensions.md",
     "tools/Burp/Organiser.md",
     "tools/Burp/Squencer.md",
     "tools/Burp/Comparer.md",
@@ -311,26 +322,14 @@
     "unistuff/Dumbass fucking protocol things for crypt.md",
     "unistuff/Cryptography.md",
     "unistuff/Security fundamentals.md",
-    "Untitled.md",
-    "vulns/SSRF.md",
-    "Cryptography.md",
-    "vulns/Command injection (RCE).md",
-    "vulns/Auth bypass.md",
-    "vulns/XSS.md",
-    "vulns/Race conditions.md",
-    "vulns/File Inclusion.md",
     "tools/Burp",
-    "shell/shells.md",
     "vulns",
-    "Excalidraw/Drawing 2025-10-17 11.37.37.excalidraw.md",
     "Excalidraw",
     "unistuff",
     "unistuff 1",
     "Discovery",
     "OSINT",
     "important windows thingys",
-    "Important linux thingys",
-    "shell",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",
