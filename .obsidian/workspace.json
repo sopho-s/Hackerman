@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vulns/Vulnerability databases.md",
+                "file": "privilege escalation/Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vulnerability databases"
+              "title": "Enumeration"
             }
           }
         ],
@@ -295,8 +295,10 @@
   },
   "active": "bc7ee2a6b5a7cdc6",
   "lastOpenFiles": [
-    "vulns/Scoring vulnerabilities.md",
     "vulns/Vulnerability databases.md",
+    "privilege escalation/Enumeration.md",
+    "privilege escalation",
+    "vulns/Scoring vulnerabilities.md",
     "calculator.md",
     "vulns/SSRF.md",
     "vulns/SQL Injection.md",
@@ -323,14 +325,12 @@
     "tools/Burp/Extensions.md",
     "tools/Burp/Organiser.md",
     "tools/Burp/Squencer.md",
-    "tools/Burp/Comparer.md",
     "tools/Burp",
     "vulns",
     "Excalidraw",
     "unistuff",
     "unistuff 1",
     "Discovery",
-    "OSINT",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",
