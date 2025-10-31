@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "privilege escalation/Enumeration.md",
+                "file": "privilege escalation/linux/Cron jobs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "Cron jobs"
             }
           }
         ],
@@ -295,8 +295,16 @@
   },
   "active": "bc7ee2a6b5a7cdc6",
   "lastOpenFiles": [
+    "privilege escalation/linux/Capabilities.md",
+    "privilege escalation/linux/Cron jobs.md",
+    "tools/John the Ripper.md",
+    "privilege escalation/linux/SUID.md",
+    "privilege escalation/linux/sudo.md",
+    "Important linux thingys/fs/Overlayfs.md",
+    "privilege escalation/linux/Enumeration.md",
+    "Important linux thingys/fs",
+    "privilege escalation/linux",
     "vulns/Vulnerability databases.md",
-    "privilege escalation/Enumeration.md",
     "privilege escalation",
     "vulns/Scoring vulnerabilities.md",
     "calculator.md",
@@ -319,18 +327,10 @@
     "protocols/insecure/HTTP.md",
     "protocols",
     "web/Web.md",
-    "web/JS.md",
-    "Discovery/Active recon.md",
-    "Discovery/Passive recon.md",
-    "tools/Burp/Extensions.md",
-    "tools/Burp/Organiser.md",
-    "tools/Burp/Squencer.md",
     "tools/Burp",
     "vulns",
     "Excalidraw",
     "unistuff",
-    "unistuff 1",
-    "Discovery",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",

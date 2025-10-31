@@ -1,0 +1,2 @@
+capabilities allows for granular privilege management of processes or binaries such that they can do stuff that normally only root would be able to do, but only the things that have been set
+getcap -r / will tell you what each program can do at an elevated privilege level
