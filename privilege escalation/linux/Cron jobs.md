@@ -1,1 +1,4 @@
 Cron jobs are used to run scripts or binaries at specific times, by default they run with the privilege of their owners and not the current user, however they can be configured to run with root privileges
+```shell
+cat /etc/crontab
+```

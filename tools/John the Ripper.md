@@ -1,4 +1,4 @@
-# Syntax
+=-# Syntax
 `john [options] [file-path]`
 try using alongside hash-id.py
 to get to ppzips use `zip2john zip > out`

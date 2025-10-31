@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "privilege escalation/linux/Cron jobs.md",
+                "file": "privilege escalation/windows/Service misconfigurations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cron jobs"
+              "title": "Service misconfigurations"
             }
           }
         ],
@@ -295,13 +295,20 @@
   },
   "active": "bc7ee2a6b5a7cdc6",
   "lastOpenFiles": [
-    "privilege escalation/linux/Capabilities.md",
+    "privilege escalation/windows/Quick wins.md",
+    "privilege escalation/windows/Service misconfigurations.md",
+    "privilege escalation/windows/Harvesting passwords.md",
+    "privilege escalation/windows/Types of users.md",
     "privilege escalation/linux/Cron jobs.md",
+    "privilege escalation/windows",
+    "privilege escalation/linux/PATH.md",
+    "privilege escalation/linux/Capabilities.md",
+    "privilege escalation/linux/NFS.md",
+    "privilege escalation/linux/Enumeration.md",
+    "privilege escalation/linux/sudo.md",
     "tools/John the Ripper.md",
     "privilege escalation/linux/SUID.md",
-    "privilege escalation/linux/sudo.md",
     "Important linux thingys/fs/Overlayfs.md",
-    "privilege escalation/linux/Enumeration.md",
     "Important linux thingys/fs",
     "privilege escalation/linux",
     "vulns/Vulnerability databases.md",
@@ -319,18 +326,11 @@
     "protocols/secure/TLS.md",
     "protocols/insecure/Telnet.md",
     "protocols/secure",
-    "protocols/insecure/IMAP.md",
-    "protocols/insecure/POP3.md",
     "protocols/insecure",
-    "protocols/insecure/SMTP.md",
-    "protocols/insecure/FTP.md",
-    "protocols/insecure/HTTP.md",
     "protocols",
-    "web/Web.md",
     "tools/Burp",
     "vulns",
     "Excalidraw",
-    "unistuff",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",
