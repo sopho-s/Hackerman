@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discovery/Content discovery.md",
+                "file": "privilege escalation/windows/Service misconfigurations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Content discovery"
+              "title": "Service misconfigurations"
             }
           },
           {
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -293,10 +293,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bc7ee2a6b5a7cdc6",
+  "active": "b506b76266431149",
   "lastOpenFiles": [
     "privilege escalation/windows/Quick wins.md",
     "privilege escalation/windows/Service misconfigurations.md",
+    "Discovery/Content discovery.md",
     "privilege escalation/windows/Harvesting passwords.md",
     "privilege escalation/windows/Types of users.md",
     "privilege escalation/linux/Cron jobs.md",
@@ -324,7 +325,6 @@
     "tools/Hydra.md",
     "protocols/secure/SSH.md",
     "protocols/secure/TLS.md",
-    "protocols/insecure/Telnet.md",
     "protocols/secure",
     "protocols/insecure",
     "protocols",
