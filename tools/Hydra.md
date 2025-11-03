@@ -20,3 +20,5 @@ example:
 ```shell
 hydra -l <username> -P <wordlist> 10.10.88.56 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
+# TIPS
+make sure to use full error message
