@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web/OAuth.md",
+                "file": "unistuff/Privacy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth"
+              "title": "Privacy"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
-    "web/JWT.md",
     "web/OAuth.md",
+    "unistuff/Privacy.md",
+    "web/JWT.md",
     "SQL.md",
     "tools/Hydra.md",
     "tools/John the Ripper.md",
@@ -210,7 +211,6 @@
     "privilege escalation/linux/Enumeration.md",
     "privilege escalation/linux/Cron jobs.md",
     "privilege escalation/linux/Capabilities.md",
-    "Code examples/shared library.md",
     "Code examples",
     "protocols/secure",
     "protocols/insecure",

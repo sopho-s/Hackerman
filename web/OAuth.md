@@ -25,3 +25,21 @@ The implicit grant is primarily designed for mobile and web applications where c
 The resource owner password credentials grant is used when the client is highly trusted by the resource owner, such as first-party applications. The client collects the users credential directly and exchanges them for an access token. This grant type is direct, requiring fewer interactions, making it suitable for highly trusted applications where the user is confident in providing their credentials
 ## Client credential grant
 The client credential grant is used for server to server interaction without user involvement. The client uses his credentials to authenticate with the authorisation server and obtain an access token. In this flow, the client authenticates with the authorisation server using its client credentials, and the authorisation server issues access tokens directly to the client
+# Vulnerabilities
+## Redirect URI
+an insecure uri can lead to severe security issues. If attackers gain control over any domain or URI listed in the redirect_uri, they can manipulate the flow to intercept tokens
+## Weak or missing state parameter
+The state parameter is an arbitrary string that the client application includes in the authorisation request. when the authorisation server redirect sthe user back to the client application with authorisation code, it also includes the state parameter. The client application then verifies that the state parameter in the response matches the one it initially sent
+## Implicit grant flow
+this flow has inherent vulnerabilities
+- Exposing access token in url
+- Inadequate validation of redirect uris
+- No HTTPS implementation
+- Improper handling of access tokens
+due to these vulnerabilities OAuth 2.0 recommends that you swith to Proof Key of Code Exchange which provides enhanced security by mitigating the risks of token exposure and lack of client authentication
+## Insufficient token expiry
+access tokens with long or infinite lifetimes pose a significant security risk. if an attacker obtains such a token, they can access protected resources indefinitely
+## Replay attacks
+replay attacks involve capturing valid tokens and reusing them to gain unauthorised access. Attackers can exploit tokens multiple times without mechanisms to detect and prevent token reuse. implementing nonce values and timestamp checks can help mitigate replay attacks
+## Insecure storage of tokens
+storing access tokens and refresh tokens insecurely can lead to token theft and unauthorised access
