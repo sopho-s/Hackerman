@@ -41,3 +41,7 @@ you can use set to set certain values while running code
 `set <dereferenced-mem-location> = value`
 # jmp (j)
 jumps to a specific memory location
+## search-pattern
+this can be used to find specific values in memory
+## print (p)
+prints the value of a register or memory location
