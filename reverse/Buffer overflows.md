@@ -1,1 +1,0 @@
-buffer overflows occur when a program does not properly check the size of the input they are receiving resulting in input being able to be larger than the variable it is stored in, which can cause it to overflow into other parts of memory

@@ -7,6 +7,8 @@ indicates the password list
 sets the number of threads to spawn
 ## -V
 sets the output to verbose
+## -s
+sets the port
 # Usage
 ## General usage
 ```
