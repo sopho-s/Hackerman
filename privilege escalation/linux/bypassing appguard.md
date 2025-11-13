@@ -1,0 +1,3 @@
+```shell
+/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 /bin/bash
+```
