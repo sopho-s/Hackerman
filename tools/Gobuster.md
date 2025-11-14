@@ -42,7 +42,7 @@ sets the target url
 enumerates subdomains of a given domain
 ## example
 ```shell
-gobuster dns -d <domain> -w <wordlist>
+gobuster dns --domain <domain> -w <wordlist>
 ```
 ## -c
 shows the cname records

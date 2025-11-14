@@ -1,5 +1,6 @@
 https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 https://www.revshells.com/
+# REMEMBER THAT SOME PHP COMMAND EXECUTIONS USE SH WHICH DOES NOT SUPPORT /DEV/TCP USE /BIN/BASH -c TO RUN
 # Reverse shells
 The connections initiate from the target system to the attackers machine which can help avoid detection from network firewalls
 # Bind shell
