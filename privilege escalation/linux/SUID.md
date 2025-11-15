@@ -5,7 +5,7 @@ find / -type f -perm -04000 -ls 2>/dev/null
 ```
 or
 ```shell
-find / -perm /u=s,g=s 2> /dev/null
+find / -perm /u=s,g=s -ls 2> /dev/null 
 ```
 # example 
 ```c

