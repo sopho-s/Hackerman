@@ -24,3 +24,4 @@ specifies headers
 ```shell
 ffuf -w /usr/share/wordlists/SecLists/Usernames/xato-net-10-million-usernames.txt -u http://lookup.thm/login.php -X POST -d "username=FUZZ&password=password123" -fw 10 -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -t 20
 ```
+SUPER IMPORTANT THAT THE CONTENT TYPE IS SPECIFIED

