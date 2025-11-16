@@ -17,3 +17,7 @@ sometimes when using $\_REQUESTS using a post request instead of a get and using
 - Carefully analyse the web application and allow only protocols and php wrappers that are in need
 - never trust user input and enable proper input validation
 - Implement whitelisting for filenames as well as black listing
+# Thingies to do
+- Find the flipin application running
+- look through all processes using `/proc/[pid]/cmdline`
+- `php://filter/convert.base64-encode/resource` pretty sickalishos way of displaying php files
