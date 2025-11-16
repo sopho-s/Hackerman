@@ -21,3 +21,4 @@ sometimes when using $\_REQUESTS using a post request instead of a get and using
 - Find the flipin application running
 - look through all processes using `/proc/[pid]/cmdline`
 - `php://filter/convert.base64-encode/resource` pretty sickalishos way of displaying php files
+- if you can do php filters then heor https://github.com/synacktiv/php_filter_chain_generator https://www.synacktiv.com/publications/php-filters-chain-what-is-it-and-how-to-use-it
