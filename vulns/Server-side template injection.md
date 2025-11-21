@@ -1,0 +1,1 @@
+SSTI is a vulnerability where the user input is unsafely incorporated into a server-side template, allowing attackers to inject and execute arbitrary code on the server
