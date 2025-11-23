@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vulns/SQL Injection.md",
+                "file": "vulns/Server-side template injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL Injection"
+              "title": "Server-side template injection"
             }
           }
         ]
@@ -182,17 +182,18 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
+    "tools/Hydra.md",
     "vulns/Server-side template injection.md",
-    "vulns/SQL Injection.md",
+    "vulns/Scoring vulnerabilities.md",
     "vulns/LDAP injectione.md",
-    "vulns/IDOR.md",
-    "vulns/Command injection (RCE).md",
-    "vulns/ORM injection.md",
     "vulns/NoSQL Injection.md",
+    "vulns/File Inclusion.md",
+    "vulns/Command injection (RCE).md",
+    "vulns/SQL Injection.md",
+    "vulns/IDOR.md",
+    "vulns/ORM injection.md",
     "vulns/Vulnerability databases.md",
     "vulns/XXE Injection.md",
-    "vulns/File Inclusion.md",
-    "vulns/Scoring vulnerabilities.md",
     "vulns/SSRF.md",
     "vulns/XSS.md",
     "tools/SSTImap.md",
@@ -208,7 +209,6 @@
     "privilege escalation/linux/PATH.md",
     "privilege escalation/linux/Snooping.md",
     "privilege escalation/linux/sudo.md",
-    "privilege escalation/linux/SUID.md",
     "reverse",
     "Binary exploits",
     "reverse",
