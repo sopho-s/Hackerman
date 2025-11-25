@@ -25,3 +25,9 @@ specifies headers
 ffuf -w /usr/share/wordlists/SecLists/Usernames/xato-net-10-million-usernames.txt -u http://lookup.thm/login.php -X POST -d "username=FUZZ&password=password123" -fw 10 -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -t 20
 ```
 SUPER IMPORTANT THAT THE CONTENT TYPE IS SPECIFIED
+
+## Subdomain enum
+```shell
+ffuf -w /usr/share/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -H 'Host:
+FUZZ.planning.htb' -u http://planning.htb -c
+```

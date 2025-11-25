@@ -22,3 +22,5 @@ sometimes when using $\_REQUESTS using a post request instead of a get and using
 - look through all processes using `/proc/[pid]/cmdline`
 - `php://filter/convert.base64-encode/resource` pretty sickalishos way of displaying php files
 - if you can do php filters then heor https://github.com/synacktiv/php_filter_chain_generator https://www.synacktiv.com/publications/php-filters-chain-what-is-it-and-how-to-use-it
+- apache logs, if they record user agents, may be able to do custom agent with php name and execute it 
+- ini files can usually contain information about database locations

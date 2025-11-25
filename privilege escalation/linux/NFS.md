@@ -8,3 +8,5 @@ showmount -e ip
 ```shell
 mount -o rw i:directorytomount mountdirectory
 ```
+
+also you can check with mount
