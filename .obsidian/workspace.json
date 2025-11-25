@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "privilege escalation/linux/SUID.md",
+                "file": "tools/ssh port forwarding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUID"
+              "title": "ssh port forwarding"
             }
           }
         ]
@@ -182,11 +182,13 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
+    "privilege escalation/linux/Enumeration.md",
+    "tools/ssh port forwarding.md",
+    "privilege escalation/linux/SUID.md",
     "privilege escalation/linux/sudo.md",
     "privilege escalation/linux/Snooping.md",
     "privilege escalation/linux/PATH.md",
     "privilege escalation/linux/NFS.md",
-    "privilege escalation/linux/Enumeration.md",
     "privilege escalation/linux/Capabilities.md",
     "privilege escalation/linux/bypassing appguard.md",
     "tools/fuff.md",
@@ -195,7 +197,6 @@
     "tools/openssl.md",
     "tools/Gobuster.md",
     "privilege escalation/linux/Cron jobs.md",
-    "privilege escalation/linux/SUID.md",
     "vulns/File Inclusion.md",
     "vulns/IDOR.md",
     "tools/nmap.md",
@@ -207,7 +208,6 @@
     "Discovery/Content discovery.md",
     "tools/John the Ripper.md",
     "vulns/Server-side template injection.md",
-    "tools/Hydra.md",
     "Screenshot from 2025-11-20 14-27-25.png",
     "reverse",
     "Binary exploits",
