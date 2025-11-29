@@ -17,3 +17,5 @@ will run `echo hello`
 echo <<< echo hello
 ```
 <<< will redirect the right hand side equation to stdin of the left
+
+regex maybe able to be bypassed with newlines
