@@ -8,12 +8,14 @@
 # Privilege escalation
 - [x] Is /etc/passwd writable
 - [x] Is /etc/shadow readable
-- [x] Are there any plain text or encrypted passwords hidden in databases or in password files
+- [ ] Are there any plain text or encrypted passwords hidden in databases or in password files
+- [ ] Is there anything in the environment variables
+- [ ] If there is check .local and .cache of the user, anything interesting?
 - [x] Enumerate /opt
-- [x] Can the user do anything with sudo
+- [x] Can the user do anything with sudo (check even if you dont have a password)
 - [x] Are there any obvious suid bits that can be abused
 - [x] Are there any capabilities that can be abused
 - [x] Are there any obvious cron jobs
-- [x] Are there any hidden cron jobs (pspy)
-- [x] Are there any open ports (netstat -lntu)
+- [ ] Are there any hidden cron jobs (pspy)
+- [ ] Are there any open ports (netstat -lntu)
 - [ ] Run linpeas.sh
