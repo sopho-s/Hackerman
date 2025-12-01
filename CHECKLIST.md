@@ -1,8 +1,9 @@
 # ENUMERATION
-- [ ] Service nmap scan
-- [ ] Script nmap scan if you have determined that it wont notify the user
-- [ ] Gobuster dir scan (make sure to add extensions)
+- [x] Service nmap scan
+- [x] Script nmap scan if you have determined that it wont notify the user
 - [ ] Gobuster dns scan
+- [ ] Explore website
+- [ ] Gobuster dir scan (make sure to add extensions)
 - [ ] Get version numbers from wappalyzer 
 - [ ] Search if versions are vulnerable to any cve
 # Privilege escalation
