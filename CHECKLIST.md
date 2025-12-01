@@ -10,7 +10,7 @@
 - [ ] Is /etc/shadow readable
 - [ ] Are there any plain text or encrypted passwords hidden in databases or in password files
 - [ ] Is there anything in the environment variables
-- [ ] If there is check .local and .cache of the user, anything interesting?
+- [ ] If there is check .local and .cache of the user
 - [ ] Enumerate /opt
 - [ ] Can the user do anything with sudo (check even if you dont have a password)
 - [ ] Are there any obvious suid bits that can be abused
