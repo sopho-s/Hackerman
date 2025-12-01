@@ -1,11 +1,11 @@
 # ENUMERATION
-- [x] Service nmap scan
-- [x] Script nmap scan if you have determined that it wont notify the user
-- [x] Gobuster dns scan
-- [x] Explore website
-- [x] Gobuster dir scan (make sure to add extensions)
-- [x] Get version numbers from wappalyzer 
-- [x] Search if versions are vulnerable to any cve
+- [ ] Service nmap scan
+- [ ] Script nmap scan if you have determined that it wont notify the user
+- [ ] Gobuster dns scan
+- [ ] Explore website
+- [ ] Gobuster dir scan (make sure to add extensions)
+- [ ] Get version numbers from wappalyzer 
+- [ ] Search if versions are vulnerable to any cve
 # Privilege escalation
 - [ ] Is /etc/passwd writable
 - [ ] Is /etc/shadow readable

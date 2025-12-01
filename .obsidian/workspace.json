@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CHECKLIST.md",
+                "file": "vulns/XXE Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHECKLIST"
+              "title": "XXE Injection"
             }
           }
         ]
@@ -182,24 +182,24 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
-    "Screenshot from 2025-11-20 14-27-25.png",
-    "tools/fuff.md",
-    "CHECKLIST.md",
-    "Cryptography.md",
-    "vulns/SSRF.md",
     "vulns/XSS.md",
-    "vulns/XXE Injection.md",
     "vulns/Vulnerability databases.md",
     "vulns/Server-side template injection.md",
+    "CHECKLIST.md",
     "vulns/SQL Injection.md",
-    "vulns/Scoring vulnerabilities.md",
+    "vulns/LDAP injectione.md",
     "vulns/ORM injection.md",
+    "vulns/XXE Injection.md",
+    "Screenshot from 2025-11-20 14-27-25.png",
+    "tools/fuff.md",
+    "Cryptography.md",
+    "vulns/SSRF.md",
+    "vulns/Scoring vulnerabilities.md",
     "vulns/Auth bypass.md",
     "vulns/Command injection (RCE).md",
     "vulns/File Inclusion.md",
     "vulns/IDOR.md",
     "vulns/insecure serialisation.md",
-    "vulns/LDAP injectione.md",
     "vulns/NoSQL Injection.md",
     "vulns/Untitled.md",
     "privilege escalation/linux/Capabilities.md",
