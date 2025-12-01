@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vulns/XXE Injection.md",
+                "file": "vulns/File Inclusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XXE Injection"
+              "title": "File Inclusion"
             }
           }
         ]
@@ -182,16 +182,18 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
+    "CHECKLIST.md",
+    "tools/fuff.md",
+    "tools/Hydra.md",
+    "tools/John the Ripper.md",
+    "vulns/Server-side template injection.md",
+    "vulns/XXE Injection.md",
     "vulns/XSS.md",
     "vulns/Vulnerability databases.md",
-    "vulns/Server-side template injection.md",
-    "CHECKLIST.md",
     "vulns/SQL Injection.md",
     "vulns/LDAP injectione.md",
     "vulns/ORM injection.md",
-    "vulns/XXE Injection.md",
     "Screenshot from 2025-11-20 14-27-25.png",
-    "tools/fuff.md",
     "Cryptography.md",
     "vulns/SSRF.md",
     "vulns/Scoring vulnerabilities.md",
@@ -207,7 +209,6 @@
     "privilege escalation/linux/SUID.md",
     "privilege escalation/linux/sudo.md",
     "privilege escalation/linux/Snooping.md",
-    "privilege escalation/linux/PATH.md",
     "Untitled",
     "reverse",
     "Binary exploits",
