@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "03aacfe3546aa10e",
+        "id": "acd30e50b9431b02",
         "type": "tabs",
         "children": [
           {
-            "id": "21c63d2b49f3e072",
+            "id": "55f6d0666e05a45c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vulns/File Inclusion.md",
+                "file": "vulns/Server-side template injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Inclusion"
+              "title": "Server-side template injection"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 200
   },
   "right": {
     "id": "c001dab3a195c494",
@@ -169,56 +169,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "21c63d2b49f3e072",
+  "active": "55f6d0666e05a45c",
   "lastOpenFiles": [
-    "CHECKLIST.md",
-    "tools/fuff.md",
-    "tools/Hydra.md",
-    "tools/John the Ripper.md",
-    "vulns/Server-side template injection.md",
-    "vulns/XXE Injection.md",
-    "vulns/XSS.md",
-    "vulns/Vulnerability databases.md",
     "vulns/SQL Injection.md",
-    "vulns/LDAP injectione.md",
-    "vulns/ORM injection.md",
-    "Screenshot from 2025-11-20 14-27-25.png",
-    "Cryptography.md",
-    "vulns/SSRF.md",
-    "vulns/Scoring vulnerabilities.md",
-    "vulns/Auth bypass.md",
-    "vulns/Command injection (RCE).md",
-    "vulns/File Inclusion.md",
-    "vulns/IDOR.md",
-    "vulns/insecure serialisation.md",
-    "vulns/NoSQL Injection.md",
-    "vulns/Untitled.md",
-    "privilege escalation/linux/Capabilities.md",
-    "privilege escalation/linux/Cron jobs.md",
     "privilege escalation/linux/SUID.md",
-    "privilege escalation/linux/sudo.md",
+    "vulns/insecure serialisation.md",
+    "vulns/XXE Injection.md",
+    "vulns/Server-side template injection.md",
+    "vulns/ORM injection.md",
+    "vulns/NoSQL Injection.md",
+    "vulns/LDAP injectione.md",
+    "tools/ssh port forwarding.md",
+    "tools/ldapsearch.md",
+    "tools/SSTImap.md",
+    "privilege escalation/windows/uploading files to windows.md",
     "privilege escalation/linux/Snooping.md",
-    "Untitled",
+    "Screenshot from 2025-11-20 14-27-25.png",
+    "CHECKLIST.md",
+    "privilege escalation/linux/bypassing appguard.md",
+    "web/Sessions.md",
+    "web/OAuth.md",
+    "web/MFA.md",
+    "web/JWT.md",
+    "reverse/pwn.md",
+    "reverse/gdb.md",
+    "reverse/Overflows.md",
+    "reverse/Assembly knowledge.md",
     "reverse",
-    "Binary exploits",
-    "reverse",
+    "Code examples/shared library.md",
     "Code examples",
+    "shell/shells.md",
+    "tools/netcat.md",
+    "Discovery/enumeration",
+    "privilege escalation/windows",
+    "Important linux thingys/fs",
+    "privilege escalation/linux",
+    "privilege escalation",
     "protocols/secure",
     "protocols/insecure",
     "protocols",
-    "privilege escalation/windows",
-    "privilege escalation/linux",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",
