@@ -1,6 +1,6 @@
 # ENUMERATION
-- [ ] Service nmap scan
-- [ ] UDP nmap scan
+- [x] Service nmap scan
+- [x] UDP nmap scan
 - [ ] Script nmap scan if you have determined that it wont notify the user
 - [ ] Gobuster dns scan
 - [ ] Explore website
