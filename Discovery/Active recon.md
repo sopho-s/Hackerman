@@ -6,3 +6,7 @@ Traceroute will, as in the name, trace the route taken by packets from your syst
 Telnet is a protocol that was developed to communicate with a remote system via a command-line interface. Telnet does send all data in cleartext so is not secure. However telnet can be used for banner grabbing
 # Netcat
 Netcat has different applications that are of great value to a pentester, Netcat supports both TCP and UDP protocols. It can function as a client that connects to a listening port, or it can act as a server that listens on a port of your choice
+# DNS zone transfers
+In certain cases, DNS server admins may want to copy or transfer zone files from one DNS server to another, which is known as zone transfer, if misconfigured can be used to copy zone files from the primary dns server to another dns server
+# backups
+look for common backup file extensions
