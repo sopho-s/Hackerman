@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discovery/Passive recon.md",
+                "file": "Discovery/IDS and Firewall evasion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Passive recon"
+              "title": "IDS and Firewall evasion"
+            }
+          },
+          {
+            "id": "f39a1ef55c16f7cd",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -183,12 +197,21 @@
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
     "Discovery/Active recon.md",
+    "Discovery/IDS and Firewall evasion.md",
+    "tools/nmap.md",
+    "conflict-files-obsidian-git.md",
+    "Discovery/IDS and Firewall evasion.md",
+    "vulns/Prototype pollution.md",
+    "reverse/Overflows.md",
+    "reverse/gdb.md",
+    "reverse/Assembly knowledge.md",
     "Discovery/Content discovery.md",
     "Discovery/Passive recon.md",
     "Discovery/enumeration/Authentication enumeration.md",
+    "Excalidraw/Drawing 2026-01-07 21.59.02.excalidraw.md",
+    "Excalidraw",
     "vulns/File Inclusion.md",
     "vulns/Command injection (RCE).md",
-    "vulns/Prototype pollution.md",
     "tools/Hydra.md",
     "vulns/ORM injection.md",
     "privilege escalation/linux/bypassing appguard.md",
@@ -200,14 +223,6 @@
     "privilege escalation/linux/Snooping.md",
     "privilege escalation/linux/sudo.md",
     "privilege escalation/linux/SUID.md",
-    "Code examples/shared library.md",
-    "tools/ssh port forwarding.md",
-    "tools/openssl.md",
-    "CHECKLIST.md",
-    "vulns/Server-side template injection.md",
-    "web/OAuth.md",
-    "vulns/Auth bypass.md",
-    "unistuff/Security response and vulnerability disclosure.md",
     "Screenshot from 2025-11-20 14-27-25.png",
     "Untitled",
     "reverse",
@@ -218,7 +233,6 @@
     "protocols/insecure",
     "protocols",
     "privilege escalation/windows",
-    "privilege escalation/linux",
     "Images/Dominance 2.png",
     "Images/Dominance1.png",
     "Images/Screenshot from 2025-09-30 20-15-14.png",

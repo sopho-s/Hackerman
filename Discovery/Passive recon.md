@@ -1,3 +1,15 @@
+# HTTrack
+Lets you download the whole website to analyse its source code
+# DNS Recond
+Is a kali tool that lets you enumerate a dns server for all its records
+# WA(P)FWOOF
+is a tool to find out if a website is behind a web application firewall
+# Sublist3r
+Enumerates subdomains using osint
+# theHarvester
+Harvests emails and other info using google dorking and other osint techs
+# Host
+resolves the domain name to an ip address, if there is more than one it is most likely a proxy
 # whois
 whois is a request and response protocol that follows the RFC 3912 specification. A whois server listens on TCP port 43 for incoming requests. The domain registrar is responsible for maintaining the whois records for the domain names it is leasing
 ## What can you find
