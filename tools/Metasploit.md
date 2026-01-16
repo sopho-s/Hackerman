@@ -57,6 +57,8 @@ shows all existing sessions
 - `workspace`
 lists all workspaces
 `workspace -a/-d` adds and deletes a workspace respectively
+## db_import
+imports an xml file output, can be of nmap
 # Types of modules
 ## Auxiliary
 Any supporting module, such as scanners, crawlers and fuzzers
