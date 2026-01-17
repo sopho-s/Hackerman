@@ -2,3 +2,8 @@ Simple mail transfer protocol is one of the most used services on the internet, 
 # Details
 - default port is 25
 - uses tcp
+# Enumeration
+## MSF auxiliary/scanner/smtp/smtp_version
+gets the version of smtp running
+## MSF auxiliary/scanner/smtp/smtp_enum
+enumerates users on the smtp server

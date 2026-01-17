@@ -8,7 +8,7 @@ finds the smb version running
 ## MSF auxiliary/scanner/smb/smb_enumusers
 finds all users on the smb program
 ## MSF auxiliary/scanner/smb/smb_enumshares
-gets all shares on the smb progra
+gets all shares on the smb program
 ## MSF auxiliary/scanner/smb/smb_login
 brute forces smb login
 # Logging on
