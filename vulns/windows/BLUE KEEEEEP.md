@@ -1,0 +1,1 @@
+blue keep is a vulnerability from 2019 within RDP that would allow attackers to gain RCE on a windows system
