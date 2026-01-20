@@ -1,0 +1,2 @@
+shellshock is the name given to a family of vulnerabilities in the bash shell that allow an attacker to get arbitrary code execution via bash
+by inputting special characters `() { :; };`within the user-agent header you can perform command injection after these characters
