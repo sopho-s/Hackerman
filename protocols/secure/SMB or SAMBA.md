@@ -2,6 +2,11 @@ SMB is a network file sharing protocol that is used to facilitate the sharing of
 # Details
 - default port is 445
 - uses tcp
+## SMB authentication
+The SMB protocol utilises two levels of authentication
+- User authentication: the user must provide a username and password in order to authenticate with the SMB server and access a share
+- Share authentication: the user must provide a password in order to access restricted shares
+both utilize a challenge response authentication system
 # Enumeration
 ## MSF auxiliary/scanner/smb/smb_version
 finds the smb version running
@@ -21,3 +26,5 @@ logging into a share
 ```shell
 smbclient \\\\ip\\share -U admin
 ```
+# PsExec
+PsExec allows you to execute commands on a target system via authenticating using smb
