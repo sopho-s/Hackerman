@@ -28,3 +28,7 @@ smbclient \\\\ip\\share -U admin
 ```
 # PsExec
 PsExec allows you to execute commands on a target system via authenticating using smb
+https://github.com/veso266/impacket/blob/master/examples/psexec.py
+```shell
+psexec.py user@ip cmd.exe
+```
