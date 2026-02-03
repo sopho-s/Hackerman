@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "protocols/secure/WinRM.md",
+                "file": "protocols/secure/NetBIOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WinRM"
+              "title": "NetBIOS"
             }
           }
         ]
@@ -183,10 +183,15 @@
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
     "protocols/secure/SMB or SAMBA.md",
-    "protocols/secure/MySQL.md",
-    "vulns/windows/BLUE KEEEEEP.md",
-    "protocols/secure/WinRM.md",
+    "protocols/secure/NetBIOS.md",
     "protocols/secure/RDP.md",
+    "protocols/secure/MySQL.md",
+    "protocols/secure/SMB.md",
+    "vulns/windows/Alternate data streams.md",
+    "vulns/windows/Windows access tokens.md",
+    "vulns/windows/UAC bypass.md",
+    "protocols/secure/WinRM.md",
+    "vulns/windows/BLUE KEEEEEP.md",
     "protocols/secure/SSH.md",
     "vulns/windows/IIS webdav exploiting.md",
     "tools/cadaver.md",
@@ -205,12 +210,7 @@
     "Discovery/IDS and Firewall evasion.md",
     "Discovery/Content discovery.md",
     "vulns/windows/Untitled",
-    "Vulnerability scanning with metasploit.md",
-    "protocols/insecure/SMTP.md",
-    "unistuff/Cryptography.md",
     "vulns/windows",
-    "tools/nmap.md",
-    "protocols/insecure/FTP.md",
     "Excalidraw",
     "Screenshot from 2025-11-20 14-27-25.png",
     "Untitled",
