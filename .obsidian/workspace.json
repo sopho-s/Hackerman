@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "protocols/secure/NetBIOS.md",
+                "file": "protocols/secure/SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NetBIOS"
+              "title": "SSH"
             }
           }
         ]
@@ -182,17 +182,17 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
-    "protocols/secure/SMB or SAMBA.md",
-    "protocols/secure/NetBIOS.md",
-    "protocols/secure/RDP.md",
     "protocols/secure/MySQL.md",
+    "protocols/secure/NetBIOS.md",
+    "protocols/secure/SMB or SAMBA.md",
+    "protocols/secure/WinRM.md",
+    "protocols/secure/RDP.md",
+    "protocols/secure/SSH.md",
     "protocols/secure/SMB.md",
     "vulns/windows/Alternate data streams.md",
     "vulns/windows/Windows access tokens.md",
     "vulns/windows/UAC bypass.md",
-    "protocols/secure/WinRM.md",
     "vulns/windows/BLUE KEEEEEP.md",
-    "protocols/secure/SSH.md",
     "vulns/windows/IIS webdav exploiting.md",
     "tools/cadaver.md",
     "tools/davtest.md",

