@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "protocols/secure/SSH.md",
+                "file": "protocols/secure/NetBIOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH"
+              "title": "NetBIOS"
             }
           }
         ]
@@ -182,12 +182,13 @@
   },
   "active": "21c63d2b49f3e072",
   "lastOpenFiles": [
-    "protocols/secure/MySQL.md",
-    "protocols/secure/NetBIOS.md",
-    "protocols/secure/SMB or SAMBA.md",
     "protocols/secure/WinRM.md",
     "protocols/secure/RDP.md",
+    "protocols/secure/NetBIOS.md",
     "protocols/secure/SSH.md",
+    "protocols/secure/TLS.md",
+    "protocols/secure/SMB or SAMBA.md",
+    "protocols/secure/MySQL.md",
     "protocols/secure/SMB.md",
     "vulns/windows/Alternate data streams.md",
     "vulns/windows/Windows access tokens.md",
@@ -208,7 +209,6 @@
     "tools/Metasploit.md",
     "Discovery/Passive recon.md",
     "Discovery/IDS and Firewall evasion.md",
-    "Discovery/Content discovery.md",
     "vulns/windows/Untitled",
     "vulns/windows",
     "Excalidraw",
