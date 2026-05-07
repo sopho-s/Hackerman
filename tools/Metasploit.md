@@ -2,7 +2,7 @@
 Metasploit has a database function to simplify project management and avoid possible confusion when setting up parameter values
 ```bash
 systemctl start postgresql
-sudo -u postgres msfdb init
+sudo -u postgres msfdb init 
 ```
 using `db_nmap` now stores all results in the database
 using `hosts` and `services` can show all about the hosts and services found

@@ -1,4 +1,4 @@
- 1SQL injection is an attack on a web application database server that causes malicious queries to be executed
+SQL injection is an attack on a web application database server that causes malicious queries to be executed
 # Types
 ## In-Band
 in-band sql injection refers to the same method of communication being used to exploit the vulnerability and also receive the results 
